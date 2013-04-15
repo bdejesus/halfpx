@@ -1,0 +1,9 @@
+%h1 Black &amp; White Photography
+
+%ul.photographs
+  - @photoset.photos.each do |p|
+    %li.row
+      .spans4.justify-right
+        %h4.bottomless= p.title
+        %small= p.description
+      .spans8= image_tag p.medium_url

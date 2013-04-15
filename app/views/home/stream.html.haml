@@ -1,0 +1,4 @@
+%section
+  %ul.photographs
+    - @photos.each do |photo|
+      %li= image_tag photo, alt: ''

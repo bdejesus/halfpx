@@ -1,0 +1,70 @@
+
+@import shared/mixins
+@import shared/normalize
+@import application/grid
+@import application/typography
+
+
+.container
+  padding: 0
+
+section
+  margin: ($spacing * 2) 0
+.wrap
+  position: relative
+
+header
+  background: #333
+  margin-bottom: $spacing * 2
+  height: 36px
+
+nav
+  position: absolute
+  bottom: 10px
+  right: 0
+  ul
+    padding: 0
+    margin: 0
+  li
+    display: inline-block
+    margin: 0 $spacing
+
+
+h1.branding
+  display: inline-block
+  padding: 0 20px
+  margin: 0
+  background: #FFF
+  font-weight: 600
+  text-transform: uppercase
+  margin: -24px 0 0
+  line-height: 1
+  a
+    color: #333
+
+
+.photographs
+  list-style: none
+  padding: 0
+  margin: 0
+  img
+    max-width: 100%
+    display: block
+
+small ul
+  margin: 40px 0
+
+a
+  color: #666
+  text-decoration: none
+
+footer
+  clear: both
+  padding: 20px 0
+
+img
+  display: block
+  max-width: 100%
+
+.row
+  margin: 80px 0

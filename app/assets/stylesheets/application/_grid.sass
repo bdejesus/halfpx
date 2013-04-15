@@ -1,0 +1,89 @@
+@import ../shared/mixins
+
+$columns: 12
+$column-width: 100% / $columns
+$margin: percentage(20px / $page-width)
+
+.wrap, footer, .main, nav.global
+  max-width: $page-width
+  margin: 0 auto
+
+.row
+  clear: both
+  max-width: $page-width
+  margin-left: auto
+  margin-right: auto
+  &:after
+    content: ' '
+    display: block
+    clear: both
+    width: 100px
+    height: 1px
+    margin-top: -1px
+  > [class*='spans']
+    float: left
+    margin-right: $margin
+    &:last-child
+      margin-right: 0
+  > .spans1
+    width: ($column-width - $margin) + ($margin / $columns)
+  > .spans2
+    width: ($column-width * 2 - $margin) + ($margin / ($columns / 2))
+  > .spans3
+    width: ($column-width * 3 - $margin) + ($margin / ($columns / 3))
+  > .spans4
+    width: ($column-width * 4 - $margin) + ($margin / ($columns / 4))
+  > .spans5
+    width: ($column-width * 5 - $margin) + ($margin / ($columns / 5))
+  > .spans6
+    width: ($column-width * 6 - $margin) + ($margin / ($columns / 6))
+  > .spans7
+    width: ($column-width * 7 - $margin) + ($margin / ($columns / 7))
+  > .spans8
+    width: ($column-width * 8 - $margin) + ($margin / ($columns / 8))
+  > .spans9
+    width: ($column-width * 9 - $margin) + ($margin / ($columns / 9))
+  > .spans10
+    width: ($column-width * 10 - $margin) + ($margin /($columns / 10))
+  > .spans11
+    width: ($column-width * 11 - $margin) + ($margin /($columns / 11))
+  > .spans12
+    width: ($column-width * 12 - $margin) + ($margin /($columns / 12))
+
+// Columns Without Margins
+.row.no-margins
+  > [class*='spans']
+    margin-right: 0
+  > .spans1
+    width: $column-width
+  > .spans2
+    width: $column-width * 2
+  > .spans3
+    width: $column-width * 3
+  > .spans4
+    width: $column-width * 4
+  > .spans5
+    width: $column-width * 5
+  > .spans6
+    width: $column-width * 6
+  > .spans7
+    width: $column-width * 7
+  > .spans8
+    width: $column-width * 8
+  > .spans9
+    width: $column-width * 9
+  > .spans10
+    width: $column-width * 10
+  > .spans11
+    width: $column-width * 11
+  > .spans12
+    width: $column-width * 12
+
+.demo
+  .row
+    margin-bottom: 5px
+  .row, [class*='spans']
+    background: rgba(0,0,0,0.02)
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05)
+    text-align: center
+    padding: 5px 0

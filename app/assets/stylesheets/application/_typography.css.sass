@@ -1,0 +1,54 @@
+@import shared/mixins
+
+body
+  color: #333
+  font-family: "Helvetica Neue", Verdana, sans-serif
+  font-size: 100%
+  line-height: 1.75
+  font-weight: 300
+.container
+  font-size: 1em
+h1, h2, h3, h4, h5, h6
+  color: #666
+  font-weight: 300
+  line-height: 1.25
+  &:first-child
+    margin-top: 0
+h1, .h1
+  font-size: 4.2308em
+
+h2, .h2
+  font-size: 3.2308em
+
+h3, .h3
+  font-size: 2.6154em
+
+h4, .h4
+  font-size: 2em
+
+h5, .h5
+  font-size: 1.6154em
+
+h6, .h6
+  font-size: 1.2308em
+
+p, address
+  font-size: 1em
+  font-style: normal
+small
+  font-size: 0.7692em
+
+// Utility Classes
+.justify-right
+  text-align: right
+.justify-left
+  text-align: left
+.centered
+  text-align: center
+.topless
+  margin-top: 0
+.bottomless
+  margin-bottom: 0
+.marginless
+  @extend .topless
+  @extend .bottomless
