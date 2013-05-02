@@ -36,19 +36,32 @@
 	},
 	"file_history":
 	[
-		"/Users/Ben/Projects/halfpixels.com/app/controllers/home_controller.rb",
-		"/Users/Ben/Projects/halfpixels.com/app/views/layouts/_header.haml",
-		"/Users/Ben/Projects/halfpixels.com/app/views/home/selected_photos_bw.html.haml",
 		"/Users/Ben/Projects/halfpixels.com/app/assets/stylesheets/application.css.sass",
+		"/Users/Ben/Projects/halfpixels.com/app/controllers/home_controller.rb",
+		"/Users/Ben/Projects/halfpixels.com/app/assets/stylesheets/shared/_mixins.sass",
+		"/Users/Ben/Projects/halfpixels.com/app/assets/stylesheets/application/_typography.css.sass",
+		"/Users/Ben/Projects/halfpixels.com/app/views/layouts/_header.haml",
+		"/Users/Ben/Projects/halfpixels.com/app/views/home/index.html.haml",
+		"/Users/Ben/Projects/halfpixels.com/app/views/home/trips_to_tahoe.html.haml",
+		"/Users/Ben/Projects/halfpixels.com/app/assets/stylesheets/application/_grid.sass",
+		"/Users/Ben/Projects/halfpixels.com/app/views/layouts/application.html.haml",
+		"/Users/Ben/Projects/halfpixels.com/Gemfile",
+		"/Users/Ben/Projects/halfpixels.com/lib/tasks/fetch.rake",
+		"/Users/Ben/Projects/halfpixels.com/README",
+		"/Users/Ben/Projects/halfpixels.com/app/models/photo.rb",
+		"/Users/Ben/Projects/halfpixels.com/db/schema.rb",
+		"/Users/Ben/Projects/halfpixels.com/config/routes.rb",
+		"/Users/Ben/Projects/halfpixels.com/db/migrate/20130415001101_photosets_photos.rb",
+		"/Users/Ben/Projects/halfpixels.com/app/models/photoset.rb",
+		"/Users/Ben/Projects/halfpixels.com/app/views/home/selected_photos_bw.html.haml",
+		"/Users/Ben/Projects/halfpixels.com/db/migrate/20130414044123_create_photos.rb",
+		"/Users/Ben/Projects/halfpixels.com/config/database.yml",
+		"/Users/Ben/Projects/halfpixels.com/lib/tasks/bootstrap.rake",
+		"/Users/Ben/Projects/halfpixels.com/lib/tasks/bootstrap.rb",
 		"/Users/Ben/Projects/halfpixels.com/app/views/home/stream.html.haml",
 		"/Users/Ben/Projects/halfpixels.com/lib/utils/flickr.rb",
 		"/Users/Ben/Projects/halfpixels.com/app/controllers/application_controller.rb",
-		"/Users/Ben/Projects/halfpixels.com/config/routes.rb",
-		"/Users/Ben/Projects/halfpixels.com/app/views/layouts/application.html.haml",
-		"/Users/Ben/Projects/halfpixels.com/app/views/home/index.html.haml",
-		"/Users/Ben/Projects/halfpixels.com/app/assets/stylesheets/application/_grid.sass",
 		"/Users/Ben/Projects/halfpixels.com/app/views/layouts/_footer.haml",
-		"/Users/Ben/Projects/halfpixels.com/app/views/home/trips_to_tahoe.html.haml",
 		"/Users/Ben/Projects/halfpixels.com/app/views/home/styleguide.html.haml",
 		"/Users/Ben/Projects/halfpixels.com/app/views/home/selected-bw.html.haml",
 		"/Users/Ben/Projects/halfpixels.com/app/views/home/trips-to-tahoe.html.haml",
@@ -150,20 +163,7 @@
 		"/Users/Ben/Projects/strava/active/spec/requests/feed_spec.rb",
 		"/Users/Ben/Projects/strava/active/app/support/athletes/onboarding.rb",
 		"/Users/Ben/Projects/strava/active/app/views/feed/_challenge_single_view.haml",
-		"/Users/Ben/Projects/strava/active/app/views/feed/_challenge.haml",
-		"/Users/Ben/Projects/strava/active/app/assets/stylesheets/shared/_global-base.sass",
-		"/Users/Ben/Projects/strava/active/app/views/admin/challenges/new.haml",
-		"/Users/Ben/Projects/strava/active/app/views/admin/challenges/_core_attributes_form.haml",
-		"/Users/Ben/Projects/strava/active/app/views/dashboards/_onboarding_find_friends.haml",
-		"/Users/Ben/Projects/strava/active/app/assets/javascripts/strava/dashboard/Ftue.js.coffee",
-		"/Users/Ben/Projects/strava/active/app/views/admin/styleguide/_type.haml",
-		"/Users/Ben/Projects/strava/active/app/helpers/dashboards_helper.rb",
-		"/Users/Ben/Projects/strava/active/app/controllers/athletes_controller.rb",
-		"/Users/Ben/Projects/strava/active/app/controllers/application_controller.rb",
-		"/Users/Ben/Projects/strava/active/config/routes.rb",
-		"/Users/Ben/Projects/strava/active/app/controllers/website_controller.rb",
-		"/Users/Ben/Projects/strava/active/app/models/picture.rb",
-		"/Users/Ben/Projects/strava/active/app/support/external/s3/cdn_s3_bucket.rb"
+		"/Users/Ben/Projects/strava/active/app/views/feed/_challenge.haml"
 	],
 	"find":
 	{
@@ -183,6 +183,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"photoset",
 			"group",
 			"select",
 			"-module",
@@ -309,8 +310,7 @@
 			":welcome",
 			".module",
 			"feed",
-			"cache",
-			"dashboard"
+			"cache"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -387,16 +387,108 @@
 		"selected_items":
 		[
 			[
-				"bw",
-				"app/views/home/selected_photos_bw.html.haml"
+				"app.sass",
+				"app/assets/stylesheets/application.css.sass"
+			],
+			[
+				"mixin",
+				"app/assets/stylesheets/shared/_mixins.sass"
+			],
+			[
+				"grid",
+				"app/assets/stylesheets/application/_grid.sass"
 			],
 			[
 				"header",
 				"app/views/layouts/_header.haml"
 			],
 			[
-				"app.sass",
+				"homecont",
+				"app/controllers/home_controller.rb"
+			],
+			[
+				"index",
+				"app/views/home/index.html.haml"
+			],
+			[
+				"trips",
+				"app/views/home/trips_to_tahoe.html.haml"
+			],
+			[
+				"typography",
+				"app/assets/stylesheets/application/_typography.css.sass"
+			],
+			[
+				"app.haml",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"header.haml",
+				"app/views/layouts/_header.haml"
+			],
+			[
+				"photo.rb",
+				"app/models/photo.rb"
+			],
+			[
+				"homecontro",
+				"app/controllers/home_controller.rb"
+			],
+			[
+				"photoset.rb",
+				"app/models/photoset.rb"
+			],
+			[
+				"typo",
+				"app/assets/stylesheets/application/_typography.css.sass"
+			],
+			[
+				"grid.sass",
+				"app/assets/stylesheets/application/_grid.sass"
+			],
+			[
+				"gemfile",
+				"Gemfile"
+			],
+			[
+				"data",
+				"config/database.yml"
+			],
+			[
+				"bootstrap.rb",
+				"lib/tasks/bootstrap.rb"
+			],
+			[
+				"phto.rb",
+				"app/models/photo.rb"
+			],
+			[
+				"model/set",
+				"app/models/photoset.rb"
+			],
+			[
+				"schema.rb",
+				"db/schema.rb"
+			],
+			[
+				"appsas",
 				"app/assets/stylesheets/application.css.sass"
+			],
+			[
+				"selecte",
+				"app/views/home/selected_photos_bw.html.haml"
+			],
+			[
+				"routes.rb",
+				"config/routes.rb"
+			],
+			[
+				"homecontr",
+				"app/controllers/home_controller.rb"
+			],
+			[
+				"bw",
+				"app/views/home/selected_photos_bw.html.haml"
 			],
 			[
 				"stream.haml",
@@ -415,22 +507,6 @@
 				"lib/utils/flickr.rb"
 			],
 			[
-				"grid.sass",
-				"app/assets/stylesheets/application/_grid.sass"
-			],
-			[
-				"routes.rb",
-				"config/routes.rb"
-			],
-			[
-				"homecont",
-				"app/controllers/home_controller.rb"
-			],
-			[
-				"app.haml",
-				"app/views/layouts/application.html.haml"
-			],
-			[
 				"index.haml",
 				"app/views/home/index.html.haml"
 			],
@@ -447,20 +523,8 @@
 				"app/views/home/selected-bw.html.haml"
 			],
 			[
-				"index",
-				"app/views/home/index.html.haml"
-			],
-			[
 				"application.html.erb",
 				"app/views/layouts/application.html.erb"
-			],
-			[
-				"gemfile",
-				"Gemfile"
-			],
-			[
-				"typo",
-				"app/assets/stylesheets/application/_typography.css.sass"
 			],
 			[
 				"mixins.sass",
@@ -833,70 +897,6 @@
 			[
 				"onboarding_",
 				"app/views/dashboards/_onboarding_upload_activity.haml"
-			],
-			[
-				"feed/show",
-				"app/views/feed/show.haml"
-			],
-			[
-				"spec/requests/feed",
-				"spec/requests/feed_spec.rb"
-			],
-			[
-				"global-sass",
-				"app/assets/stylesheets/shared/_global-base.sass"
-			],
-			[
-				"challenge.haml",
-				"app/views/feed/_challenge.haml"
-			],
-			[
-				"challengesingle",
-				"app/views/feed/_challenge_single_view.haml"
-			],
-			[
-				"challenges/coreatt",
-				"app/views/admin/challenges/_core_attributes_form.haml"
-			],
-			[
-				"admin/challenge/new",
-				"app/views/admin/challenges/new.haml"
-			],
-			[
-				"type.haml",
-				"app/views/admin/styleguide/_type.haml"
-			],
-			[
-				"dashboardshelper.rb",
-				"app/helpers/dashboards_helper.rb"
-			],
-			[
-				"onboardingfindfriends",
-				"app/views/dashboards/_onboarding_find_friends.haml"
-			],
-			[
-				"ftue.js",
-				"app/assets/javascripts/strava/dashboard/Ftue.js.coffee"
-			],
-			[
-				"database",
-				"config/database.default.yml"
-			],
-			[
-				"athlete_controller",
-				"app/controllers/athletes_controller.rb"
-			],
-			[
-				"application_controller",
-				"app/controllers/application_controller.rb"
-			],
-			[
-				"websitecontrol",
-				"app/controllers/website_controller.rb"
-			],
-			[
-				"tdf12haml",
-				"app/views/website/tdf12.html.haml"
 			]
 		],
 		"width": 0.0
@@ -910,7 +910,7 @@
 		"width": 0.0
 	},
 	"show_minimap": false,
-	"show_open_files": true,
+	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": false,
 	"side_bar_width": 220.0,

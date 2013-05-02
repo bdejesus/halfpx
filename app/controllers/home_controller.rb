@@ -1,7 +1,7 @@
 class HomeController < ApplicationController
 
   def index
-    render
+    @photoset = Photoset.find(2)
   end
 
   def selected_photos_bw

@@ -3,7 +3,7 @@
 %ul.photographs
   - @photoset.photos.each do |p|
     %li.row
-      .spans4.justify-right
+      .spans3.justify-right
         %h4= p.title
         %small= p.description
-      .spans8= image_tag p.large_url
+      .spans8.offset1= image_tag p.large_url
