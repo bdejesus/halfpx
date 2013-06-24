@@ -4,6 +4,8 @@
 @import application/grid
 @import application/typography
 
+html, body
+  height: 100%
 
 .container
   padding: 0
@@ -63,4 +65,17 @@ img
   max-width: 100%
 
 .row
-  margin: 80px 0
+  margin:
+    top: 80px
+    bottom: 80px
+
+.photographs .image
+  display: block
+  height: 100%
+  min-height: 100px
+  position: relative
+  background:
+    repeat: no-repeat
+    size: cover
+    attachment: fixed
+    position: center

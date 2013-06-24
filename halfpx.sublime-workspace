@@ -36,15 +36,17 @@
 	},
 	"file_history":
 	[
+		"/Users/Ben/Projects/halfpixels.com/app/views/layouts/application.html.haml",
+		"/Users/Ben/Projects/halfpixels.com/app/views/home/index.html.haml",
+		"/Users/Ben/Projects/halfpixels.com/app/assets/stylesheets/application/_grid.sass",
+		"/Users/Ben/Projects/halfpixels.com/app/assets/javascripts/photostream.js.coffee",
 		"/Users/Ben/Projects/halfpixels.com/app/assets/stylesheets/application.css.sass",
-		"/Users/Ben/Projects/halfpixels.com/app/controllers/home_controller.rb",
+		"/Users/Ben/Projects/halfpixels.com/config/initializers/backtrace_silencers.rb",
 		"/Users/Ben/Projects/halfpixels.com/app/assets/stylesheets/shared/_mixins.sass",
+		"/Users/Ben/Projects/halfpixels.com/app/controllers/home_controller.rb",
 		"/Users/Ben/Projects/halfpixels.com/app/assets/stylesheets/application/_typography.css.sass",
 		"/Users/Ben/Projects/halfpixels.com/app/views/layouts/_header.haml",
-		"/Users/Ben/Projects/halfpixels.com/app/views/home/index.html.haml",
 		"/Users/Ben/Projects/halfpixels.com/app/views/home/trips_to_tahoe.html.haml",
-		"/Users/Ben/Projects/halfpixels.com/app/assets/stylesheets/application/_grid.sass",
-		"/Users/Ben/Projects/halfpixels.com/app/views/layouts/application.html.haml",
 		"/Users/Ben/Projects/halfpixels.com/Gemfile",
 		"/Users/Ben/Projects/halfpixels.com/lib/tasks/fetch.rake",
 		"/Users/Ben/Projects/halfpixels.com/README",
@@ -161,9 +163,7 @@
 		"/Users/Ben/Projects/strava/active/app/views/dashboards/_onboarding_upload_activity.haml",
 		"/Users/Ben/Projects/strava/active/app/views/feed/show.haml",
 		"/Users/Ben/Projects/strava/active/spec/requests/feed_spec.rb",
-		"/Users/Ben/Projects/strava/active/app/support/athletes/onboarding.rb",
-		"/Users/Ben/Projects/strava/active/app/views/feed/_challenge_single_view.haml",
-		"/Users/Ben/Projects/strava/active/app/views/feed/_challenge.haml"
+		"/Users/Ben/Projects/strava/active/app/support/athletes/onboarding.rb"
 	],
 	"find":
 	{
@@ -183,6 +183,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".row",
 			"photoset",
 			"group",
 			"select",
@@ -309,8 +310,7 @@
 			"register",
 			":welcome",
 			".module",
-			"feed",
-			"cache"
+			"feed"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -387,12 +387,24 @@
 		"selected_items":
 		[
 			[
-				"app.sass",
-				"app/assets/stylesheets/application.css.sass"
+				"grid.sass",
+				"app/assets/stylesheets/application/_grid.sass"
 			],
 			[
 				"mixin",
 				"app/assets/stylesheets/shared/_mixins.sass"
+			],
+			[
+				"app.haml",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"app.sass",
+				"app/assets/stylesheets/application.css.sass"
+			],
+			[
+				"index.haml",
+				"app/views/home/index.html.haml"
 			],
 			[
 				"grid",
@@ -419,10 +431,6 @@
 				"app/assets/stylesheets/application/_typography.css.sass"
 			],
 			[
-				"app.haml",
-				"app/views/layouts/application.html.haml"
-			],
-			[
 				"header.haml",
 				"app/views/layouts/_header.haml"
 			],
@@ -441,10 +449,6 @@
 			[
 				"typo",
 				"app/assets/stylesheets/application/_typography.css.sass"
-			],
-			[
-				"grid.sass",
-				"app/assets/stylesheets/application/_grid.sass"
 			],
 			[
 				"gemfile",
@@ -505,10 +509,6 @@
 			[
 				"flickr",
 				"lib/utils/flickr.rb"
-			],
-			[
-				"index.haml",
-				"app/views/home/index.html.haml"
 			],
 			[
 				"homecontroller",
@@ -912,7 +912,7 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 220.0,
 	"status_bar_visible": true
 }
