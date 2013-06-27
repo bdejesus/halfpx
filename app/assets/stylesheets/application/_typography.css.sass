@@ -8,7 +8,7 @@ body
   font-weight: 300
 .container
   font-size: 1em
-h1, h2, h3, h4, h5, h6
+h1, h2, h3, h4, h5, h6, p.leadin:first-line
   font-family: 'Gilda Display', Times New Roman, serif
   font-weight: 300
   line-height: 1.25
@@ -40,6 +40,13 @@ small
   font-size: 0.7692em
 
 // Utility Classes
+.leadin
+  font-size: 1.2308em
+  line-height: 1.6em
+  &:first-line
+    color: #666
+    font-size: 1.6154em
+
 .justify-right
   text-align: right
 .justify-left
