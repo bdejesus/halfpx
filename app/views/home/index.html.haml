@@ -8,8 +8,9 @@
 
 
 
-/ %ul.photographs
-/   - @photos.each do |p|
+%ul.photographs
+  - @photos.each do |p|
+    %li= p.inspect
 /     %li
 /       .description.row
 /         %h4= p.title
