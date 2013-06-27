@@ -10,9 +10,8 @@
 
 %ul.photographs
   - @photos.each do |p|
-    %li= p.inspect
-/     %li
-/       .description.row
-/         %h4= p.title
-/         %small= p.description
-/       .image{style: "background-image: url(#{p.large_url});"}
+    %li
+      .description.row
+        %h4= p.title
+        %small= p.description
+      .image{style: "background-image: url(#{p.large_url});"}
