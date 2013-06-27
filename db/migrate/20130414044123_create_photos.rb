@@ -9,8 +9,8 @@ class CreatePhotos < ActiveRecord::Migration
       t.string  :square_url
       t.string  :thumbnail_url
       t.string  :original_url
-      t.string :photoset_id
-      t.string :photo_id
+      t.integer :photoset_id
+      t.string  :photo_id
 
       t.timestamps
     end

@@ -22,23 +22,23 @@ ActiveRecord::Schema.define(:version => 20130415001101) do
     t.string   "square_url"
     t.string   "thumbnail_url"
     t.string   "original_url"
-    t.string  "photoset_id"
-    t.string  "photo_id"
+    t.string   "photoset_id"
+    t.integer  "photo_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "photosets", :force => true do |t|
     t.string   "title"
-    t.string  "set_id"
+    t.string   "set_id"
     t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "photosets_photos", :force => true do |t|
-    t.string "photo_id"
-    t.string "photoset_id"
+    t.integer "photo_id"
+    t.integer "photoset_id"
   end
 
 end
