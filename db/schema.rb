@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(:version => 20130415001101) do
     t.string   "thumbnail_url"
     t.string   "original_url"
     t.string   "photoset_id"
-    t.integer  "photo_id"
+    t.string   "photo_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
