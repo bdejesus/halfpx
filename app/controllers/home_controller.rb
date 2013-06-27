@@ -1,16 +1,17 @@
 class HomeController < ApplicationController
 
   def index
-    @photoset = Photoset.find(2)
+    photoset = Photoset.where(title: 'Trips to Tahoe')
+    @photos = Photo.where(photoset_id: photoset)
   end
 
   def selected_photos_bw
-    @photoset = Photoset.find(1)
+    @photoset = Photoset.where(title: 'Black & White')
     @photos = Photoset.first
   end
 
   def trips_to_tahoe
-    @photoset = Photoset.find(2)
+    @photoset = Photoset.where(title: 'Trips to Tahoe')
   end
 
   def san_francisco
