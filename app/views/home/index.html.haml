@@ -1,8 +1,8 @@
-%section.row.content
+%section.row.content#intro
 
-  %h2.centered About
+  %h2.centered This is my photography.
 
-  %p.leadin Half Pixels is a site for my photography work. I shoot a lot of black and white photography, but there are also some color in there. I like black and white because it helps tell a more focused story &mdash; color isn't a distraction. I only use color if I feel that it is essential to the narrative that is happening in the photo.
+  %p.leadin I shoot a lot of black and white photography but there are also some color in there. I like black and white because it helps tell a more focused story &mdash; color isn't a distraction. I only use color if I feel that it is essential to the narrative that is happening in the photo.
 
   %p None of the photos in these sets were precomposed. Each a moment in time captured – random and unique.
 
@@ -11,7 +11,7 @@
 %ul.photographs
   - @photos.each do |p|
     %li
-      .description.row
+      .description
         %h4= p.title
-        %small= p.description
+        %div= p.description
       .image{style: "background-image: url(#{p.large_url});"}
