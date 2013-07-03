@@ -1,17 +1,17 @@
-%section.row.content#intro
+%section.row.content#intro.centered
+  .spans8.align-center
+    %h2 This is my photography.
 
-  %h2.centered This is my photography.
+    %p.leadin I mostly black and white and some color. Black and white photography helps tell a more focused story where color isn't a distraction. Color is only present if it is essential to the narrative.
 
-  %p.leadin I shoot a lot of black and white photography but there are also some color in there. I like black and white because it helps tell a more focused story &mdash; color isn't a distraction. I only use color if I feel that it is essential to the narrative that is happening in the photo.
-
-  %p None of the photos in these sets were precomposed. Each a moment in time captured – random and unique.
+    %p None of these photos were precomposed. Each is a moment in time captured – random and unique.
 
 
 
 %ul.photographs
-  - @photos.each do |p|
+  - @photos.each_with_index do |p, i|
     %li
       .description
         %h4= p.title
         %div= p.description
-      .image{style: "background-image: url(#{p.large_url});"}
+      .image{style: "background-image: url(#{p.large_url});", class: "#{'lead' if i == 0}"}
