@@ -1,17 +1,23 @@
 @import shared/mixins
 
+@mixin antialiased
+  -webkit-font-smoothing: antialiased
+  font-smoothing: antialiased
+
 body
   color: #333
   font-family: "Helvetica Neue", Verdana, sans-serif
   font-size: 100%
   line-height: 1.5
   font-weight: 300
+
 .container
   font-size: 1em
 h1, h2, h3, h4, h5, h6, p.leadin:first-line
   font-family: 'Gilda Display', Times New Roman, serif
   font-weight: 300
   line-height: 1.25
+  @include antialiased
   &:first-child
     margin-top: 0
 h1, .h1

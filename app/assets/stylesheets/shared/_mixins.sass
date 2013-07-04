@@ -1,2 +1,10 @@
 $page-width: 960px /* 1150px */
 $spacing: 1.4em
+
+@mixin gradient($top, $bottom)
+  background: $bottom
+  background: -moz-linear-gradient(top, $top 0%, $bottom 100%)
+  background: -webkit-linear-gradient(top, $top 0%, $bottom 100%)
+  background: -o-linear-gradient(top, $top 0%, $bottom 100%)
+  background: -ms-linear-gradient(top, $top 0%, $bottom 100%)
+  background: linear-gradient(top, $top 0%, $bottom 100%)
