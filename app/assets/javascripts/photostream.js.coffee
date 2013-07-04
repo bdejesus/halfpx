@@ -20,7 +20,6 @@ $(document).ready(->
       xPos = '50% '
 
       if (bgobj.hasClass('lead'))
-        console.log(bgobj)
         xPos = '0px '
       else
         xPos = '50% '
