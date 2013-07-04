@@ -36,11 +36,14 @@
 	},
 	"file_history":
 	[
-		"/Users/Ben/Projects/halfpixels.com/app/assets/javascripts/photostream.js.coffee",
-		"/Users/Ben/Projects/halfpixels.com/app/views/home/index.html.haml",
 		"/Users/Ben/Projects/halfpixels.com/app/assets/stylesheets/application.css.sass",
-		"/Users/Ben/Projects/halfpixels.com/app/assets/javascripts/application.js",
+		"/Users/Ben/Projects/halfpixels.com/app/assets/stylesheets/application/_utility.sass",
 		"/Users/Ben/Projects/halfpixels.com/app/assets/stylesheets/application/_grid.sass",
+		"/Users/Ben/Projects/halfpixels.com/app/views/home/index.html.haml",
+		"/Users/Ben/Projects/halfpixels.com/Gemfile",
+		"/Users/Ben/Projects/halfpixels.com/app/assets/javascripts/application.js",
+		"/Users/Ben/Projects/halfpixels.com/config/application.rb",
+		"/Users/Ben/Projects/halfpixels.com/app/assets/javascripts/photostream.js.coffee",
 		"/Users/Ben/Projects/halfpixels.com/app/assets/stylesheets/application/_typography.css.sass",
 		"/Users/Ben/Projects/halfpixels.com/db/schema.rb",
 		"/Users/Ben/Projects/halfpixels.com/db/migrate/20130415001101_photosets_photos.rb",
@@ -48,7 +51,6 @@
 		"/Users/Ben/Projects/halfpixels.com/app/controllers/home_controller.rb",
 		"/Users/Ben/Projects/halfpixels.com/app/views/layouts/application.html.haml",
 		"/Users/Ben/Projects/halfpixels.com/app/views/layouts/_header.haml",
-		"/Users/Ben/Projects/halfpixels.com/Gemfile",
 		"/Users/Ben/Projects/halfpixels.com/lib/tasks/bootstrap.rake",
 		"/Users/Ben/Projects/halfpixels.com/config/database.yml",
 		"/Users/Ben/Projects/halfpixels.com/db/migrate/20130414065930_create_photosets.rb",
@@ -161,9 +163,7 @@
 		"/Users/Ben/Projects/strava/active/app/views/feed/_activity_full_view.haml",
 		"/Users/Ben/Projects/strava/active/config/locales/en.yml",
 		"/Users/Ben/Projects/strava/active/app/assets/javascripts/strava/follows/AcceptAction.js.coffee",
-		"/Users/Ben/Projects/strava/active/spec/requests/dashboard_spec.rb",
-		"/Users/Ben/Projects/strava/active/app/views/dashboards/_onboarding_upload_activity.haml",
-		"/Users/Ben/Projects/strava/active/app/views/feed/show.haml"
+		"/Users/Ben/Projects/strava/active/spec/requests/dashboard_spec.rb"
 	],
 	"find":
 	{
@@ -375,8 +375,24 @@
 		"selected_items":
 		[
 			[
+				"gemfile",
+				"Gemfile"
+			],
+			[
+				"config",
+				"config/application.rb"
+			],
+			[
+				"grid.sass",
+				"app/assets/stylesheets/application/_grid.sass"
+			],
+			[
 				"app.sass",
 				"app/assets/stylesheets/application.css.sass"
+			],
+			[
+				"index",
+				"app/views/home/index.html.haml"
 			],
 			[
 				"index.haml",
@@ -389,10 +405,6 @@
 			[
 				"app",
 				"app/assets/javascripts/application.js"
-			],
-			[
-				"grid.sass",
-				"app/assets/stylesheets/application/_grid.sass"
 			],
 			[
 				"typo",
@@ -413,10 +425,6 @@
 			[
 				"data",
 				"config/database.yml"
-			],
-			[
-				"gemfile",
-				"Gemfile"
 			],
 			[
 				"layoutsheader",
@@ -465,10 +473,6 @@
 			[
 				"homecont",
 				"app/controllers/home_controller.rb"
-			],
-			[
-				"index",
-				"app/views/home/index.html.haml"
 			],
 			[
 				"trips",
@@ -881,10 +885,6 @@
 			[
 				"commentscontroller",
 				"app/assets/javascripts/strava/feed/CommentsController.js.coffee"
-			],
-			[
-				"feed/activityhaml",
-				"app/views/feed/_activity.haml"
 			]
 		],
 		"width": 0.0
