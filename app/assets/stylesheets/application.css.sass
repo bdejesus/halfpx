@@ -8,24 +8,24 @@
 html, body
   height: 100%
 
-#intro
-  padding: 0 20px
-  h2
-    text-shadow: 1px 1px 1px rgba(255,255,255,0.8), -1px -1px 0px rgba(0,0,0,0.8)
-
 .container
-  margin-top: 140px
-  padding: 10px 0
   background: #FFF
-
-section
-  margin: ($spacing * 2) 0
 .wrap
   position: relative
-
+header, footer
+  background-image: image-url('subtle_white_feathers.png')
 header
-  margin-bottom: $spacing * 2
-  text-shadow: 1px 1px 0px #FFF, -1px -1px 0px #000
+  box-shadow: 5px 5px 10px #000
+  padding: 140px 20px 100px
+  text-align: center
+  position: absolute
+  top: 120px
+  left: 0
+  right: 0
+  z-index: 11
+  h2
+    color: #333
+  //  text-shadow: 1px 1px 2px rgba(255,255,255,0.8), -1px -1px 0px rgba(0,0,0,1)
 
 .main
   position: relative
@@ -44,13 +44,14 @@ nav
     margin: 0 $spacing
 
 h1.branding
-  margin: 100px 0
+  margin: 0 0 60px
   font-size: 120px
   text-transform: uppercase
   text-align: center
   line-height: 1
+h1, h2
   text-shadow: none
-  -webkit-text-fill-color: transparent
+  -webkit-text-fill-color: rgba(0,0,0,0.1)
   background: -webkit-linear-gradient(transparent, transparent), url(http://farm3.staticflickr.com/2886/9096553023_f2d119600c_h.jpg) no-repeat fixed
   -webkit-background-clip: text
 h4
@@ -122,14 +123,12 @@ img
   margin:
     top: 80px
     bottom: 80px
-body
+.cover .image
   background:
     image: url(http://farm3.staticflickr.com/2886/9096553023_f2d119600c_h.jpg)
     attachment: fixed
     size: cover
-.container
-  background:
-    image: image-url('subtle_white_feathers.png')
+
 
 
 .photographs .image

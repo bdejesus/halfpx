@@ -1,12 +1,11 @@
-%section.row.content#intro.centered
-  .spans9.align-center
-    %h2.bottomless This is my photography.
-    %p Each is a moment in time captured – random and unique.
+
 
 %ul.photographs
+  %li.cover
+    .image.lead
   - @photos.each_with_index do |p, i|
     %li
       .description
         %h4= p.title
         %div= p.description
-      .image{style: "background-image: url(#{p.large_url});", class: "#{'lead' if i == 0}"}
+      .image{style: "background-image: url(#{p.large_url});"}
