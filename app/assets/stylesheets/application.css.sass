@@ -44,21 +44,15 @@ nav
 h1.branding
   margin: 100px 0
   font-size: 120px
-  font-weight: 600
   text-transform: uppercase
   text-align: center
   line-height: 1
+  text-shadow: none
+  -webkit-text-fill-color: transparent
+  background: -webkit-linear-gradient(transparent, transparent), url(http://farm3.staticflickr.com/2886/9096553023_f2d119600c_h.jpg) no-repeat fixed
+  -webkit-background-clip: text
 h4
   margin-bottom: 0
-
-.clip-background
-  text-shadow: none
-  background:
-    image: url(http://farm3.staticflickr.com/2886/9096553023_f2d119600c_h.jpg)
-    attachment: fixed
-    size: cover
-  color: transparent
-  @include background-clip(text)
 
 .photographs
   list-style: none
