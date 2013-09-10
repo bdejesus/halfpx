@@ -11,6 +11,49 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/views/layouts/application.html.haml",
+			"settings":
+			{
+				"buffer_size": 372,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/blog/setting_up.html.haml",
+			"settings":
+			{
+				"buffer_size": 230,
+				"line_ending": "Unix",
+				"name": "setting_up.html.haml"
+			}
+		},
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 324,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/blog_controller.rb",
+			"settings":
+			{
+				"buffer_size": 99,
+				"line_ending": "Unix",
+				"name": "blog_controller.rb"
+			}
+		},
+		{
+			"file": "app/views/layouts/blog.html.haml",
+			"settings":
+			{
+				"buffer_size": 291,
+				"line_ending": "Unix",
+				"name": "blog.html.haml"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -36,25 +79,26 @@
 	},
 	"file_history":
 	[
+		"/Users/Ben/Projects/halfpixels.com/app/views/layouts/_header.haml",
+		"/Users/Ben/Projects/halfpixels.com/app/assets/javascripts/photostream.js.coffee",
+		"/Users/Ben/Projects/halfpixels.com/app/views/home/index.html.haml",
 		"/Users/Ben/Projects/halfpixels.com/app/assets/stylesheets/application.css.sass",
+		"/Users/Ben/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Ben/Projects/halfpixels.com/app/assets/stylesheets/application/_typography.css.sass",
+		"/Users/Ben/Projects/halfpixels.com/app/views/layouts/application.html.haml",
+		"/Users/Ben/Projects/halfpixels.com/app/assets/stylesheets/shared/_mixins.sass",
+		"/Users/Ben/Projects/halfpixels.com/app/assets/javascripts/application.js",
 		"/Users/Ben/Projects/halfpixels.com/app/assets/stylesheets/application/_utility.sass",
 		"/Users/Ben/Projects/halfpixels.com/app/assets/stylesheets/application/_grid.sass",
-		"/Users/Ben/Projects/halfpixels.com/app/views/home/index.html.haml",
 		"/Users/Ben/Projects/halfpixels.com/Gemfile",
-		"/Users/Ben/Projects/halfpixels.com/app/assets/javascripts/application.js",
 		"/Users/Ben/Projects/halfpixels.com/config/application.rb",
-		"/Users/Ben/Projects/halfpixels.com/app/assets/javascripts/photostream.js.coffee",
-		"/Users/Ben/Projects/halfpixels.com/app/assets/stylesheets/application/_typography.css.sass",
 		"/Users/Ben/Projects/halfpixels.com/db/schema.rb",
 		"/Users/Ben/Projects/halfpixels.com/db/migrate/20130415001101_photosets_photos.rb",
 		"/Users/Ben/Projects/halfpixels.com/db/migrate/20130414044123_create_photos.rb",
 		"/Users/Ben/Projects/halfpixels.com/app/controllers/home_controller.rb",
-		"/Users/Ben/Projects/halfpixels.com/app/views/layouts/application.html.haml",
-		"/Users/Ben/Projects/halfpixels.com/app/views/layouts/_header.haml",
 		"/Users/Ben/Projects/halfpixels.com/lib/tasks/bootstrap.rake",
 		"/Users/Ben/Projects/halfpixels.com/config/database.yml",
 		"/Users/Ben/Projects/halfpixels.com/db/migrate/20130414065930_create_photosets.rb",
-		"/Users/Ben/Projects/halfpixels.com/app/assets/stylesheets/shared/_mixins.sass",
 		"/Users/Ben/Projects/halfpixels.com/config/initializers/backtrace_silencers.rb",
 		"/Users/Ben/Projects/halfpixels.com/app/views/home/trips_to_tahoe.html.haml",
 		"/Users/Ben/Projects/halfpixels.com/lib/tasks/fetch.rake",
@@ -162,8 +206,7 @@
 		"/Users/Ben/Projects/strava/active/app/views/feed/_activity.haml",
 		"/Users/Ben/Projects/strava/active/app/views/feed/_activity_full_view.haml",
 		"/Users/Ben/Projects/strava/active/config/locales/en.yml",
-		"/Users/Ben/Projects/strava/active/app/assets/javascripts/strava/follows/AcceptAction.js.coffee",
-		"/Users/Ben/Projects/strava/active/spec/requests/dashboard_spec.rb"
+		"/Users/Ben/Projects/strava/active/app/assets/javascripts/strava/follows/AcceptAction.js.coffee"
 	],
 	"find":
 	{
@@ -183,6 +226,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"branding",
+			"first-line",
+			"conso",
+			"main",
+			"description",
 			"ready",
 			"description",
 			"p",
@@ -305,12 +353,7 @@
 			"placeholder",
 			"save_profile",
 			".profile",
-			"male",
-			"mail",
-			"sex",
-			"birth",
-			"month",
-			"weight"
+			"male"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -328,8 +371,148 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/views/layouts/application.html.haml",
+					"settings":
+					{
+						"buffer_size": 372,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								372,
+								372
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
+						},
+						"translation.x": 92.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/blog/setting_up.html.haml",
+					"settings":
+					{
+						"buffer_size": 230,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								230,
+								230
+							]
+						],
+						"settings":
+						{
+							"auto_name": "setting_up.html.haml",
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 324,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								324,
+								324
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/controllers/blog_controller.rb",
+					"settings":
+					{
+						"buffer_size": 99,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								61,
+								61
+							]
+						],
+						"settings":
+						{
+							"auto_name": "blog_controller.rb",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/layouts/blog.html.haml",
+					"settings":
+					{
+						"buffer_size": 291,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								266,
+								266
+							]
+						],
+						"settings":
+						{
+							"auto_name": "blog.html.haml",
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -350,11 +533,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -375,6 +565,54 @@
 		"selected_items":
 		[
 			[
+				"routes.rb",
+				"config/routes.rb"
+			],
+			[
+				"header",
+				"app/views/layouts/_header.haml"
+			],
+			[
+				"typo",
+				"app/assets/stylesheets/application/_typography.css.sass"
+			],
+			[
+				"app.sass",
+				"app/assets/stylesheets/application.css.sass"
+			],
+			[
+				"mixin",
+				"app/assets/stylesheets/shared/_mixins.sass"
+			],
+			[
+				"header.haml",
+				"app/views/layouts/_header.haml"
+			],
+			[
+				"photo.js",
+				"app/assets/javascripts/photostream.js.coffee"
+			],
+			[
+				"application.js",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"headr",
+				"app/views/layouts/_header.haml"
+			],
+			[
+				"app.ham",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"index",
+				"app/views/home/index.html.haml"
+			],
+			[
+				"mixins.sass",
+				"app/assets/stylesheets/shared/_mixins.sass"
+			],
+			[
 				"gemfile",
 				"Gemfile"
 			],
@@ -387,28 +625,12 @@
 				"app/assets/stylesheets/application/_grid.sass"
 			],
 			[
-				"app.sass",
-				"app/assets/stylesheets/application.css.sass"
-			],
-			[
-				"index",
-				"app/views/home/index.html.haml"
-			],
-			[
 				"index.haml",
 				"app/views/home/index.html.haml"
 			],
 			[
-				"photo.js",
-				"app/assets/javascripts/photostream.js.coffee"
-			],
-			[
 				"app",
 				"app/assets/javascripts/application.js"
-			],
-			[
-				"typo",
-				"app/assets/stylesheets/application/_typography.css.sass"
 			],
 			[
 				"appsass",
@@ -443,10 +665,6 @@
 				"app/assets/stylesheets/application.css.sass"
 			],
 			[
-				"mixin",
-				"app/assets/stylesheets/shared/_mixins.sass"
-			],
-			[
 				"typog",
 				"app/assets/stylesheets/application/_typography.css.sass"
 			],
@@ -467,10 +685,6 @@
 				"app/assets/stylesheets/application/_grid.sass"
 			],
 			[
-				"header",
-				"app/views/layouts/_header.haml"
-			],
-			[
 				"homecont",
 				"app/controllers/home_controller.rb"
 			],
@@ -481,10 +695,6 @@
 			[
 				"typography",
 				"app/assets/stylesheets/application/_typography.css.sass"
-			],
-			[
-				"header.haml",
-				"app/views/layouts/_header.haml"
 			],
 			[
 				"photo.rb",
@@ -521,10 +731,6 @@
 			[
 				"selecte",
 				"app/views/home/selected_photos_bw.html.haml"
-			],
-			[
-				"routes.rb",
-				"config/routes.rb"
 			],
 			[
 				"homecontr",
@@ -565,10 +771,6 @@
 			[
 				"application.html.erb",
 				"app/views/layouts/application.html.erb"
-			],
-			[
-				"mixins.sass",
-				"app/assets/stylesheets/shared/_mixins.sass"
 			],
 			[
 				"dashboard.sass",
@@ -873,18 +1075,6 @@
 			[
 				"commentjs",
 				"app/assets/javascripts/strava/discussions/Comment.js.coffee"
-			],
-			[
-				"popoverbox",
-				"app/assets/javascripts/strava/feed/PopoverBoxView.js.coffee"
-			],
-			[
-				"autocompletejava",
-				"app/views/dashboards/_following_autocomplete_javascript.haml"
-			],
-			[
-				"commentscontroller",
-				"app/assets/javascripts/strava/feed/CommentsController.js.coffee"
 			]
 		],
 		"width": 0.0

@@ -6,4 +6,6 @@ Halfpx::Application.routes.draw do
   match '/san-francisco' => 'home#san_francisco'
   match '/stream' => 'home#stream'
 
+  match '/blog/setting_up' => 'blog#setting_up'
+
 end
