@@ -10,10 +10,11 @@ body
   font-size: 100%
   line-height: 1.5
   font-weight: 300
+  @include antialiased
 
 .container
-  font-size: 1em
-h1, h2, h3, h4, h5, h6, footer
+  font-size: 1rem
+h1, h2, h3, h4, h5, h6
   font-family: 'Gilda Display', Times New Roman, serif
   font-weight: 300
   line-height: 1.25
@@ -21,40 +22,40 @@ h1, h2, h3, h4, h5, h6, footer
   &:first-child
     margin-top: 0
 h1, .h1
-  font-size: 4.2308em
+  font-size: 4.2308rem
 
 h2, .h2
-  font-size: 3.2308em
+  font-size: 3.2308rem
 
 h3, .h3
-  font-size: 2.6154em
+  font-size: 2.6154rem
 
 h4, .h4
-  font-size: 2em
+  font-size: 2rem
 
 h5, .h5
-  font-size: 1.6154em
+  font-size: 1.6154rem
 
 h6, .h6
-  font-size: 1.2308em
+  font-size: 1.2308rem
 
 p, address
-  font-size: 1em
+  font-size: 1.2rem
   font-style: normal
 small
-  font-size: 0.7692em
+  font-size: 0.7692rem
 
 // Utility Classes
 .leadin
-  font-size: 1.2308em
+  font-size: 1.2308rem
   line-height: 1.6em
 
 
-.justify-right
+.text-right
   text-align: right
-.justify-left
+.text-left
   text-align: left
-.centered
+.text-center
   text-align: center
 .topless
   margin-top: 0
