@@ -4,6 +4,11 @@ $columns: 12
 $column-width: 100% / $columns
 $margin: percentage(20px / $page-width)
 
+@mixin col-width($col)
+  width: ($column-width * $col - $margin) + ($margin / $columns)
+@mixin col-offset($col)
+  margin-left: ($column-width * $col) + ($margin / $columns)
+
 .wrap, footer, nav.global
   max-width: $page-width
   margin: 0 auto
@@ -22,33 +27,51 @@ $margin: percentage(20px / $page-width)
     margin-top: -1px
   > [class*='spans']
     float: left
-    margin-right: $margin
-    &:last-child
-      margin-right: 0
+    padding: 0 $margin
   > .spans1
-    width: ($column-width - $margin) + ($margin / $columns)
+    @include col-width(1)
   > .spans2
-    width: ($column-width * 2 - $margin) + ($margin / ($columns / 2))
+    @include col-width(2)
   > .spans3
-    width: ($column-width * 3 - $margin) + ($margin / ($columns / 3))
+    @include col-width(3)
   > .spans4
-    width: ($column-width * 4 - $margin) + ($margin / ($columns / 4))
+    @include col-width(4)
   > .spans5
-    width: ($column-width * 5 - $margin) + ($margin / ($columns / 5))
+    @include col-width(5)
   > .spans6
-    width: ($column-width * 6 - $margin) + ($margin / ($columns / 6))
+    @include col-width(6)
   > .spans7
-    width: ($column-width * 7 - $margin) + ($margin / ($columns / 7))
+    @include col-width(7)
   > .spans8
-    width: ($column-width * 8 - $margin) + ($margin / ($columns / 8))
+    @include col-width(8)
   > .spans9
-    width: ($column-width * 9 - $margin) + ($margin / ($columns / 9))
+    @include col-width(9)
   > .spans10
-    width: ($column-width * 10 - $margin) + ($margin /($columns / 10))
+    @include col-width(10)
   > .spans11
-    width: ($column-width * 11 - $margin) + ($margin /($columns / 11))
+    @include col-width(11)
   > .spans12
-    width: ($column-width * 12 - $margin) + ($margin /($columns / 12))
+    @include col-width(12)
+  > .offset1
+    @include col-offset(1)
+  > .offset2
+    @include col-offset(2)
+  > .offset3
+    @include col-offset(3)
+  > .offset4
+    @include col-offset(4)
+  > .offset5
+    @include col-offset(5)
+  > .offset6
+    @include col-offset(6)
+  > .offset7
+    @include col-offset(7)
+  > .offset8
+    @include col-offset(8)
+  > .offset9
+    @include col-offset(9)
+  > .offset10
+    @include col-offset(10)
 
 // Columns Without Margins
 .row.no-margins
