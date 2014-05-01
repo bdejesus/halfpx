@@ -36,22 +36,23 @@
 	},
 	"file_history":
 	[
-		"/Users/Ben/Projects/halfpixels.com/Gemfile",
-		"/Users/Ben/Projects/halfpixels.com/app/assets/stylesheets/application.css.sass",
-		"/Users/Ben/Projects/halfpixels.com/app/views/home/index.html.haml",
+		"/Users/Ben/Projects/halfpixels.com/app/assets/stylesheets/application/_typography.css.sass",
+		"/Users/Ben/Projects/halfpixels.com/app/assets/stylesheets/application/_grid.sass",
+		"/Users/Ben/Projects/halfpixels.com/app/views/layouts/_footer.haml",
 		"/Users/Ben/Projects/halfpixels.com/app/views/layouts/_header.haml",
+		"/Users/Ben/Projects/halfpixels.com/app/views/home/index.html.haml",
+		"/Users/Ben/Projects/halfpixels.com/app/views/layouts/application.html.haml",
+		"/Users/Ben/Projects/halfpixels.com/app/assets/stylesheets/application.css.sass",
+		"/Users/Ben/Projects/halfpixels.com/app/assets/javascripts/application.js",
+		"/Users/Ben/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Ben/Projects/halfpixels.com/Gemfile",
 		"/Users/Ben/Projects/halfpixels.com/app/views/layouts/blog.html.haml",
 		"/Users/Ben/Projects/halfpixels.com/app/controllers/blog_controller.rb",
 		"/Users/Ben/Projects/halfpixels.com/config/routes.rb",
-		"/Users/Ben/Projects/halfpixels.com/app/views/layouts/application.html.haml",
 		"/Users/Ben/Projects/halfpixels.com/app/views/blog/setting_up.html.haml",
 		"/Users/Ben/Projects/halfpixels.com/app/assets/javascripts/photostream.js.coffee",
-		"/Users/Ben/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/Users/Ben/Projects/halfpixels.com/app/assets/stylesheets/application/_typography.css.sass",
 		"/Users/Ben/Projects/halfpixels.com/app/assets/stylesheets/shared/_mixins.sass",
-		"/Users/Ben/Projects/halfpixels.com/app/assets/javascripts/application.js",
 		"/Users/Ben/Projects/halfpixels.com/app/assets/stylesheets/application/_utility.sass",
-		"/Users/Ben/Projects/halfpixels.com/app/assets/stylesheets/application/_grid.sass",
 		"/Users/Ben/Projects/halfpixels.com/config/application.rb",
 		"/Users/Ben/Projects/halfpixels.com/db/schema.rb",
 		"/Users/Ben/Projects/halfpixels.com/db/migrate/20130415001101_photosets_photos.rb",
@@ -71,7 +72,6 @@
 		"/Users/Ben/Projects/halfpixels.com/app/views/home/stream.html.haml",
 		"/Users/Ben/Projects/halfpixels.com/lib/utils/flickr.rb",
 		"/Users/Ben/Projects/halfpixels.com/app/controllers/application_controller.rb",
-		"/Users/Ben/Projects/halfpixels.com/app/views/layouts/_footer.haml",
 		"/Users/Ben/Projects/halfpixels.com/app/views/home/styleguide.html.haml",
 		"/Users/Ben/Projects/halfpixels.com/app/views/home/selected-bw.html.haml",
 		"/Users/Ben/Projects/halfpixels.com/app/views/home/trips-to-tahoe.html.haml",
@@ -183,6 +183,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"background-clip",
+			"margin-left",
+			"width:",
+			"width",
+			"spans",
+			".spans",
+			"em",
+			"anti",
+			";",
+			"panel",
+			".row",
+			".main",
 			"header",
 			"branding",
 			"first-line",
@@ -298,19 +310,7 @@
 			"settings",
 			"account.alert",
 			"Alert!",
-			"settings",
-			":settings",
-			"logged_out_nav",
-			".home",
-			".mobile",
-			"def logged_in",
-			"footer",
-			".switches",
-			".current",
-			"tvinitializer",
-			"placeholder",
-			"save_profile",
-			".profile"
+			"settings"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -327,11 +327,6 @@
 	},
 	"groups":
 	[
-		{
-			"sheets":
-			[
-			]
-		},
 		{
 			"sheets":
 			[
@@ -355,18 +350,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -387,12 +375,48 @@
 		"selected_items":
 		[
 			[
-				"style",
-				"app/assets/stylesheets/application.css.sass"
+				"applicationjs",
+				"app/assets/javascripts/application.js"
 			],
 			[
 				"header",
 				"app/views/layouts/_header.haml"
+			],
+			[
+				"head.haml",
+				"app/views/layouts/_header.haml"
+			],
+			[
+				"header.haml",
+				"app/views/layouts/_header.haml"
+			],
+			[
+				"footer",
+				"app/views/layouts/_footer.haml"
+			],
+			[
+				"typ",
+				"app/assets/stylesheets/application/_typography.css.sass"
+			],
+			[
+				"typog",
+				"app/assets/stylesheets/application/_typography.css.sass"
+			],
+			[
+				"typogr",
+				"app/assets/stylesheets/application/_typography.css.sass"
+			],
+			[
+				"grid.sass",
+				"app/assets/stylesheets/application/_grid.sass"
+			],
+			[
+				"applicationha",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"style",
+				"app/assets/stylesheets/application.css.sass"
 			],
 			[
 				"index.haml",
@@ -417,10 +441,6 @@
 			[
 				"mixin",
 				"app/assets/stylesheets/shared/_mixins.sass"
-			],
-			[
-				"header.haml",
-				"app/views/layouts/_header.haml"
 			],
 			[
 				"photo.js",
@@ -451,10 +471,6 @@
 				"config/application.rb"
 			],
 			[
-				"grid.sass",
-				"app/assets/stylesheets/application/_grid.sass"
-			],
-			[
 				"app",
 				"app/assets/javascripts/application.js"
 			],
@@ -483,16 +499,8 @@
 				"app/views/layouts/application.html.haml"
 			],
 			[
-				"typ",
-				"app/assets/stylesheets/application/_typography.css.sass"
-			],
-			[
 				"application.sass",
 				"app/assets/stylesheets/application.css.sass"
-			],
-			[
-				"typog",
-				"app/assets/stylesheets/application/_typography.css.sass"
 			],
 			[
 				"app.js",
@@ -877,26 +885,6 @@
 			[
 				"activitiescontroller",
 				"app/controllers/activities_controller.rb"
-			],
-			[
-				"admin/challeng",
-				"app/controllers/admin/challenges_controller.rb"
-			],
-			[
-				"explore.haml",
-				"app/views/segments/explore.haml"
-			],
-			[
-				"activity.sass",
-				"app/assets/stylesheets/strava-app-activity.css.sass"
-			],
-			[
-				"entityviewjs",
-				"app/assets/javascripts/strava/feed/EntityView.js.coffee"
-			],
-			[
-				"comment.js",
-				"app/assets/javascripts/strava/feed/CommentsController.js.coffee"
 			]
 		],
 		"width": 0.0
@@ -912,7 +900,7 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 236.0,
 	"status_bar_visible": true
 }
